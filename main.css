@@ -1,0 +1,740 @@
+/*Project css*/
+body{
+    background-color: rgb(73, 158, 255);
+}
+.grid-HeadContainer {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr 1fr 0.1fr;
+}
+#header{
+    grid-area: 1 / 1 / 2 / 6;
+}
+.topic{
+    text-align: center;
+    background-color: rgb(73, 158, 255);
+	border: 5px dotted rgb(73, 158, 255);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+	font-family: Garamond, "Times New Roman", serif;
+}
+#header span{
+    background-color: rgb(48, 103, 167);
+    border-radius: 20px;
+    padding: 2%;
+    border: 5px dotted rgb(48, 103, 167);
+}
+.grid-Container {
+    display: grid;
+    grid-template-columns: 0.1fr 1fr 0.1fr 1fr 0.1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+div{
+    display: block;
+}
+
+#leftside{
+    grid-area: 1 / 1 / 4 / 2;
+    background-color: rgb(73, 158, 255);
+}
+#rightside{
+    grid-area: 1 / 5 / 4 / 6;
+    background-color: rgb(73, 158, 255);
+}
+#middleside{
+    grid-area: 1 / 3 / 4 / 4;
+    background-color: rgb(73, 158, 255);
+}
+
+#left1{
+    text-align: center;
+    grid-area: 1 / 2 / 2 / 3;
+    background-color: rgb(202, 227, 255);
+    border-radius: 40px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#left1 h3{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 10px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#left1 h4{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    color: rgb(0, 0, 0);
+	font-family: 'Kanit', sans-serif;
+}
+.PJ1Img{
+    display: inline-block;
+}
+.PJ1Img img{
+    text-align: center;
+    width: 500px;
+    border: 2px solid #0048ff;
+}
+
+#left2{
+    text-align: center;
+    grid-area: 2 / 2 / 3 / 3;
+    background-color: rgb(72, 255, 240);
+    border-radius: 40px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#left2 h3{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 10px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#left2 h4{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    color: rgb(0, 0, 0);
+	font-family: 'Kanit', sans-serif;
+}
+video {
+    object-fit: contain;
+}
+#left2 video{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    border: 2px solid #0048ff;
+}
+
+#left3{
+    text-align: center;
+    grid-area: 3 / 2 / 4 / 3;
+    background-color: rgb(202, 227, 255);
+    border-radius: 40px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#left3 h3{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 10px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#left3 h4{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    color: rgb(0, 0, 0);
+	font-family: 'Kanit', sans-serif;
+}
+.PJ3Img{
+    display: inline-block;
+}
+.PJ3Img img{
+    text-align: center;
+    width: 220px;
+    border: 2px solid #0048ff;
+}
+
+#right1{
+    text-align: center;
+    grid-area: 1 / 4 / 2 / 5;
+    background-color: rgb(202, 227, 255);
+    border-radius: 40px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#right1 h3{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 10px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#right1 h4{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    color: rgb(0, 0, 0);
+	font-family: 'Kanit', sans-serif;
+}
+video {
+    object-fit: contain;
+}
+#right1 video{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    border: 2px solid #0048ff;
+}
+
+#right2{
+    text-align: center;
+    grid-area: 2 / 4 / 3 / 5;
+    background-color: rgb(72, 255, 240);
+    border-radius: 40px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#right2 h3{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 10px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#right2 h4{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    color: rgb(0, 0, 0);
+	font-family: 'Kanit', sans-serif;
+}
+
+#right3{
+    text-align: center;
+    grid-area: 3 / 4 / 4 / 5;
+    background-color: rgb(202, 227, 255);
+    border-radius: 40px;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+#right3 h3{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 10px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 26px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#right3 h4{
+    text-align: left;
+    font-size: 20px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    color: rgb(0, 0, 0);
+	font-family: 'Kanit', sans-serif;
+}
+video {
+    object-fit: contain;
+}
+#right3 video{
+    width: 500px;
+    text-align: center;
+    margin: auto;
+    vertical-align: middle;
+    border: 2px solid #0048ff;
+}
+/*End Project css*/
+
+/*index css*/
+.grid-Header{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.maincourse{
+    text-align: center;
+    background-color: rgb(73, 158, 255);
+	border: 5px dotted rgb(73, 158, 255);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+	font-family: Garamond, "Times New Roman", serif;
+}
+#head span{
+    background-color: rgb(48, 103, 167);
+    border-radius: 20px;
+    padding: 2%;
+    border: 5px dotted rgb(48, 103, 167);
+}
+
+.grid-Conmain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+}
+
+#previewph{
+    grid-area: 1 / 1 / 2 / 2;
+    border-radius: 40px;
+    text-align: center;
+    background-color: rgb(106, 175, 255);
+}
+.MOSImg{
+    display: inline-block;
+    padding: 7%;
+}
+.MOSImg img{
+    text-align: center;
+    width: 500px;
+    border: 2px solid #0048ff;
+    border-radius: 50px;
+}
+
+#previewtx{
+    grid-area: 1 / 2 / 2 / 3;
+    border-radius: 40px;
+    text-align: center;
+    padding: 13%;
+    background-color: rgb(202, 227, 255);
+}
+#previewtx h2{
+    text-align: left;
+}
+.previewtext{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 2px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#education{
+    grid-area: 2 / 1 / 3 / 2;
+    border-radius: 40px;
+    background-color: rgb(202, 227, 255);
+    padding: 7%;
+    text-align: center;
+}
+#education h1{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 2px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#education h2{
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#education h3{
+    color: rgb(0, 0, 0);
+    font-size: 21px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#interest{
+    grid-area: 3 / 1 / 4 / 2;
+    border-radius: 40px;
+    background-color: rgb(106, 175, 255);
+    padding: 7%;
+    text-align: center;
+}
+#interest h1{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 2px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#interest h3{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#skill{
+    grid-area: 2 / 2 / 4 / 3;
+    border-radius: 40px;
+    background-color: rgb(72, 255, 240);
+    padding: 7%;
+    text-align: center;
+}
+#skill h1{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 2px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.fleximg{
+    display: inline-block;
+}
+.fleximg img{
+    width: 300px;
+    padding: 20px;
+}
+#skill h3{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#assignment{
+    grid-area: 4 / 1 / 5 / 2;
+    border-radius: 40px;
+    background-color: rgb(202, 227, 255);
+    padding: 7%;
+    text-align: center;
+}
+#assignment h1{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 2px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#assignment h3{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#contact{
+    grid-area: 4 / 2 / 5 / 3;
+    border-radius: 40px;
+    background-color: rgb(106, 175, 255);
+    padding: 7%;
+    text-align: center;
+}
+#contact h1{
+    background-color: rgb(48, 103, 167);
+	border-radius: 40px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border: 2px dotted rgb(48, 103, 167);
+	padding: 1%;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#contact h3{
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+	font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.conimg{
+    display: inline-block;
+}
+.conimg img{
+    width: 100px;
+    padding: 10px;
+}
+
+/* unvisited link */
+/* a:link{
+	color: #FF0000; 
+} */
+visited link 
+a:visited{
+	color: #00FF00; 
+}
+/* mouse over link */  
+ a:hover{ 
+	color: #FF00FF; 
+}
+/*End index css*/
+
+@media only screen and (max-width: 768px) {
+/*Project css*/
+    .grid-HeadContainer {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    #header{
+        grid-area: 1 / 1 / 2 / 2;
+        border-radius: 1px;
+    }
+    .grid-Container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(6, 1fr);
+        grid-row-gap: 8px;
+    }
+    #left1{
+        text-align: center;
+        grid-area: 1 / 1 / 2 / 2;
+        background-color: rgb(202, 227, 255);
+        border-radius: 40px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #left2{
+        text-align: center;
+        grid-area: 2 / 1 / 3 / 2;
+        background-color: rgb(72, 255, 240);
+        border-radius: 40px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #left3{
+        text-align: center;
+        grid-area: 3 / 1 / 4 / 2;
+        background-color: rgb(202, 227, 255);
+        border-radius: 40px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #right1{
+        text-align: center;
+        grid-area: 4 / 1 / 5 / 2;
+        background-color: rgb(72, 255, 240);
+        border-radius: 40px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #right2{
+        text-align: center;
+        grid-area: 5 / 1 / 6 / 2;
+        background-color: rgb(202, 227, 255);
+        border-radius: 40px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    #right3{
+        text-align: center;
+        grid-area: 6 / 1 / 7 / 2;
+        background-color: rgb(72, 255, 240);
+        border-radius: 40px;
+        padding-left: 3%;
+        padding-right: 3%;
+    }
+    .PJ1Img img{
+        text-align: center;
+        width: 600px;
+        border: 2px solid #0048ff;
+    }
+    .PJ3Img img{
+        text-align: center;
+        width: 250px;
+        border: 2px solid #0048ff;
+    }
+    #left2 video{
+        width: 600px;
+        text-align: center;
+        border: 2px solid #0048ff;
+    }
+    #right1 video{
+        width: 600px;
+        text-align: center;
+        border: 2px solid #0048ff;
+    }
+    #right3 video{
+        width: 600px;
+        text-align: center;
+        border: 2px solid #0048ff;
+    }
+/*End Project css*/
+
+/*index css*/
+    .grid-Header{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    .maincourse{
+        text-align: center;
+        background-color: rgb(73, 158, 255);
+        border: 5px dotted rgb(73, 158, 255);
+        padding: 1%;
+        color: rgb(255, 255, 255);
+        font-size: 10px;
+        font-family: Garamond, "Times New Roman", serif;
+    }
+    .grid-Conmain{
+        display: grid;
+        grid-template-columns: repeat(1);
+        grid-template-rows: repeat(7, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+    }
+    #previewph{
+        grid-area: 1 / 1 / 2 / 2;
+        border-radius: 40px;
+        text-align: center;
+        padding: 1%;
+        background-color: rgb(106, 175, 255);
+    }
+    #previewtx{
+        grid-area: 2 / 1 / 3 / 2;
+        border-radius: 40px;
+        text-align: center;
+        padding: 13%;
+        background-color: rgb(202, 227, 255);
+    }
+    #education{
+        grid-area: 3 / 1 / 4 / 2;
+        border-radius: 40px;
+        background-color: rgb(202, 227, 255);
+        padding: 7%;
+        text-align: center;
+    }
+    #interest{
+        grid-area: 4 / 1 / 5 / 2;
+        border-radius: 40px;
+        background-color: rgb(106, 175, 255);
+        padding: 7%;
+        text-align: center;
+    }
+    #skill{
+        grid-area: 5 / 1 / 6 / 2;
+        border-radius: 40px;
+        background-color: rgb(72, 255, 240);
+        padding: 7%;
+        text-align: center;
+    }
+    #assignment{
+        grid-area: 6 / 1 / 7 / 2;
+        border-radius: 40px;
+        background-color: rgb(202, 227, 255);
+        padding: 7%;
+        text-align: center;
+    }
+    #contact{
+        grid-area: 7 / 1 / 8 / 2;
+        border-radius: 40px;
+        background-color: rgb(106, 175, 255);
+        padding: 7%;
+        text-align: center;
+    }
+    .MOSImg img{
+        text-align: center;
+        width: 600px;
+        border: 2px solid #0048ff;
+    }
+    .fleximg img{
+        width: 100px;
+        padding: 5px;
+    }
+    .conimg img{
+        width: 80px;
+        padding: 10px;
+    }
+/*End index css*/
+}
+
+@media only screen and (max-width: 500px) {
+    .PJ1Img img{
+        text-align: center;
+        width: 375px;
+        border: 2px solid #0048ff;
+    }
+    .PJ3Img img{
+        text-align: center;
+        width: 150px;
+        border: 2px solid #0048ff;
+    }
+    #left2 video{
+        width: 375px;
+        text-align: center;
+        border: 2px solid #0048ff;
+    }
+    #right1 video{
+        width: 375px;
+        text-align: center;
+        border: 2px solid #0048ff;
+    }
+    #right3 video{
+        width: 375px;
+        text-align: center;
+        border: 2px solid #0048ff;
+    }
+    .MOSImg img{
+        text-align: center;
+        width: 450px;
+        border: 2px solid #0048ff;
+    }
+    .fleximg img{
+        width: 100px;
+        padding: 5px;
+    }
+    .conimg img{
+        width: 80px;
+        padding: 10px;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .PJ1Img img{
+        text-align: center;
+        width: 375px;
+        border: 2px solid #0048ff;
+    }
+    .PJ3Img img{
+        text-align: center;
+        width: 150px;
+        border: 2px solid #0048ff;
+    }
+    #left2 video{
+        width: 375px;
+        text-align: center;
+        border: 2px solid #0048ff;
+    }
+    #right1 video{
+        width: 375px;
+        text-align: center;
+        border: 2px solid #0048ff;
+    }
+    #right3 video{
+        width: 375px;
+        text-align: center;
+        border: 2px solid #0048ff;
+    }
+    .MOSImg img{
+        text-align: center;
+        width: 450px;
+        border: 2px solid #0048ff;
+    }
+    .fleximg img{
+        width: 100px;
+        padding: 5px;
+    }
+    .conimg img{
+        width: 80px;
+        padding: 10px;
+    }
+}
+
