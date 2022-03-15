@@ -1,0 +1,44 @@
+body{
+    background: rgb(251, 133, 255);
+}
+
+.red{
+    background-color: red; 
+}
+.blue{
+    background-color: blue; 
+}
+.green{
+    background-color: green; 
+}
+
+#game-container{
+	margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+#game-layer{ /* layer กรอบเกม*/
+    position: relative;
+    width: 500px;
+    height: 500px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: white;
+}
+
+.square{ /* สีเหลี่ยม 3 สี*/
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+fieldset{ /* กรอบฟังก์ชัน*/
+    border-radius: 10px;
+    background-color: rgb(227, 200, 238);
+    margin: 0% 30%;
+    border: 1px solid rgb(0, 0, 0);
+}
